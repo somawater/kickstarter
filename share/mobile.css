@@ -1,0 +1,28 @@
+#container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#footer {
+    display: block;
+    position: static;
+}
+
+#actions li {
+    float: none;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    width: 100% !important;
+    padding: 20px 0px;
+}
+
+#progress {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 10px;
+    z-index: 100;
+    margin: 0px;
+    border-radius: 0px;
+}

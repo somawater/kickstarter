@@ -1,0 +1,130 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #555;
+    min-height: 100%;
+    background-color: #eee;
+    background-image: url(/press/images/gray_jean.png);
+}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+a, a:visited, a:active, a:hover {
+    text-decoration: none;
+    outline: none;    
+}
+
+h1 {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    margin: 0px 0px 30px 0px;
+    text-align: center;
+}
+
+h2 {
+    color: #000;
+    margin: 0px 0px 20px 0px;
+    padding: 0px;
+}
+
+#video {
+    font-size: 14px;
+    color: #000;
+    padding: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.like {
+    display: inline-block; padding: 5px; width: 105px;
+}
+
+#container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#actions {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    width: 900px;
+    text-align: center;
+}
+
+
+
+button {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    background: #87C442;
+    background-image: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0%,#9FD04F),color-stop(100%,#87C442));
+    background-image: -webkit-linear-gradient(#9FD04F,#87C442);
+    background-image: -moz-linear-gradient(#9FD04F,#87C442);
+    background-image: -o-linear-gradient(#9FD04F,#87C442);
+    background-image: -ms-linear-gradient(#9FD04F,#87C442);
+    background-image: linear-gradient(#9FD04F,#87C442);
+    color: black;
+    -moz-box-shadow: inset 0 1px 0 0 #b7dc63;
+    -webkit-box-shadow: inset 0 1px 0 0 #B7DC63;
+    -o-box-shadow: inset 0 1px 0 0 #b7dc63;
+    box-shadow: inset 0 1px 0 0 #B7DC63;
+    text-shadow: #FFFF8E 0 1px 0;
+    -moz-background-clip: border;
+    -webkit-background-clip: border;
+    -o-background-clip: border-box;
+    -ms-background-clip: border-box;
+    -khtml-background-clip: border-box;
+    background-clip: border-box;
+    border: 1px solid #1A1A1A;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -o-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    border-radius: 6px;
+    color: #000;
+    font-size: 24px;
+    line-height: 48px;
+    padding: 0 20px;
+    -moz-transition: "color","0.3s";
+    -webkit-transition: "color","0.3s";
+    -o-transition: "color","0.3s";
+    transition: "color","0.3s";
+    cursor: pointer;
+    margin: 0px;
+    opacity: 0.99;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
